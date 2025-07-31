@@ -81,6 +81,7 @@ def time_in_session(code_max):
 session_code=import_json_max_code()+1
 quit_session=False
 while not quit_session:
+    input("Start:  ")
     new_dictionary={'code':session_code,'start':str(datetime.datetime.now())}
     print("new log info:   ",new_dictionary)
     quit_session=input("to Pause session enter blank, to quit sesion enter anythig:  ")
